@@ -9,7 +9,7 @@ import feedparser
 from telegram import LinkPreviewOptions, Update
 from telegram.ext import CommandHandler, ContextTypes
 
-# ---------- IMPOSTAZIONI (modificale qui) ----------
+# ---------- IMPOSTAZIONI -------------------
 FEED = {
     "ANSA": "https://www.ansa.it/sito/ansait_rss.xml",
     "Il Post": "https://www.ilpost.it/feed/",
