@@ -78,7 +78,7 @@ def riga_disco(etichetta, percorso):
     return f"{etichetta}: {d[0]:.0f} / {d[1]:.0f} GB ({d[2]:.0f}%)"
 
 
-# ---------- IL MESSAGGIO (cambialo come vuoi) ----------
+# ---------- IL MESSAGGIO -------------------------
 def costruisci_messaggio(titolo):
     usata, totale = ram()
     righe_container = "\n".join(
