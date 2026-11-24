@@ -10,7 +10,7 @@ from pihole import registra_pihole
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 
-# ---------- IMPOSTAZIONI (modificale qui) ----------
+# ---------- IMPOSTAZIONI --------------
 SOGLIA_TEMP = 60            # °C: oltre questa temperatura arriva un avviso
 SOGLIA_DISCO = 80           # %: oltre questa percentuale di disco pieno arriva un avviso
 INTERVALLO_CONTROLLO = 300  # secondi tra un controllo e l'altro (300 = 5 minuti)
