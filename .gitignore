@@ -1,0 +1,6 @@
+.env
+venv/
+*.bak*
+*.tar.gz
+news_visti.json
+__pycache__/
