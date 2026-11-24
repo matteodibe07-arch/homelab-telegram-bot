@@ -10,7 +10,7 @@ from zoneinfo import ZoneInfo
 from telegram import Update
 from telegram.ext import CommandHandler, ContextTypes
 
-# ---------- IMPOSTAZIONI (modificale qui) ----------
+# ---------- IMPOSTAZIONI ---------------------------
 BASE = "http://localhost:8080/api"
 ORA_PIHOLE = datetime.time(21, 0, tzinfo=ZoneInfo("Europe/Rome"))
 DOMINI_IN_CLASSIFICA = 5
