@@ -81,4 +81,4 @@ Then enable it:
 
 ## Credits
 
-Designed, configured and tested by the author. The code was written with the help of Claude (Anthropic).
+Designed, configured and tested by the author. The code was written with the help of Claude.
